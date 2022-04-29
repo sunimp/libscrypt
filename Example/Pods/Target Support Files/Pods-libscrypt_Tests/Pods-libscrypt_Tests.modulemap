@@ -1,0 +1,6 @@
+framework module Pods_libscrypt_Tests {
+  umbrella header "Pods-libscrypt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
