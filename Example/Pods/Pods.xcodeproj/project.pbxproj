@@ -7,66 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		304115F856236463CAF1335AC88CE30B /* libscrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E49AB6D5973B47243CACD39C318F8A /* libscrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028F6E567623232683ED47AC589BD5A2 /* crypto_scrypt-hexconvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 743041BF4EF4D4351439CF67B1E1050A /* crypto_scrypt-hexconvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210F08E581018BF1172C68E5E7767C6D /* sysendian.h in Headers */ = {isa = PBXBuildFile; fileRef = 297EE429FAB16F3FD1CE4D98099C0A9A /* sysendian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD251540829A5A71E4C739E9DB5FE6F /* crypto_scrypt-check.c in Sources */ = {isa = PBXBuildFile; fileRef = 31253D9F73F92A0141D89622A42D2C18 /* crypto_scrypt-check.c */; };
 		4D95596746ADB29A970A19904BEECDAF /* Pods-libscrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8055515B5208E8659D5DBF6DD55FC5D1 /* Pods-libscrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7039D9D949A430822359FDA07FB0FC86 /* libscrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D475886D3025229540F93D1852421D03 /* libscrypt-dummy.m */; };
+		6AEDA447EE30A3096A1C6137E510E129 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9B8F7872B07CDCF79183A13905BE8A /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		726367A12F52EED88CDEDACC1ED332C3 /* Pods-libscrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A233FB37115607CCA1528F04210A54 /* Pods-libscrypt_Example-dummy.m */; };
+		7C7BDC535025ABB315428994132AF0C2 /* slowequals.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8C19918933F62B26B7467D38B8AB1A /* slowequals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1B69CC8678BDFEFE608632EEE7DF87 /* slowequals.c in Sources */ = {isa = PBXBuildFile; fileRef = E3E0C78701058EEFA4707240CB5C37DD /* slowequals.c */; };
+		80143B18ED8DEEF8C5DCA01DD22C3AB2 /* crypto_scrypt-hexconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E82E41DEDA8FE9DA9962EFE4845906E /* crypto_scrypt-hexconvert.c */; };
+		82628AEA6EBE1E58167AC565AD40D061 /* crypto-scrypt-saltgen.c in Sources */ = {isa = PBXBuildFile; fileRef = C58D40F49CF616EABCE010BAE9CCCD49 /* crypto-scrypt-saltgen.c */; };
+		82C0EE58E9E3B3031565794723E2466F /* b64.c in Sources */ = {isa = PBXBuildFile; fileRef = 18A21DA40CACEEA73CF1C12BE949A2F7 /* b64.c */; };
+		8D49CAD78CAA771BDD350736AD8352AD /* libscrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D64C1372F414A78C18EF84278239CC6 /* libscrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F4B60D774B68FA3B4682FE0FA917DB6 /* Pods-libscrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8714DA44496339E9BB28CBEA5F43B0 /* Pods-libscrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919AF42C5B992723E108C32300EE5FE1 /* libscrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A259D73FAF23EACE0DC13409F621F33 /* libscrypt-dummy.m */; };
 		A18598B11DD1F180867429857B790BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B111AC698E4B4C208B177EBA2FDD3C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A3930D3CB4191B7CB56811D69AC0E4EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AFE8930F49C972AEC175A0C28E5C4C47 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 246B6B9370B9CF76A60736D8022AEE1F /* sha256.c */; };
 		B49600AB3065C723949E5B23FEC82061 /* Pods-libscrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A1451BE69042609604FC09422EF2B /* Pods-libscrypt_Tests-dummy.m */; };
+		BEBBB036CF296F5F3FACAA0FF2E7BA1E /* crypto_scrypt-hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5417876CD0D47FE5E0D28254B380A /* crypto_scrypt-hash.c */; };
 		CCEC2FEA30253C3F25CD969622C6BBE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F4887C399CD3F17EAC1C09873CB15B06 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53C66DEEF7D581CF29C83DCEC9EE3A /* ReplaceMe.swift */; };
+		CE437AD43B17CAD8772F3935AA1AA5A4 /* sha256.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EA85FC136A837F31792585274095F0 /* sha256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02D52C1B18CDDBBA5ED658694A88C18 /* libscrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5915997777F54C1883170D4D5CE44C /* libscrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3C5302E48E80891AB13F6E24E583E4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BF43A02E093125EEDCDCE5BF73C010D9 /* main.c */; };
+		DDAEFF5C70EF7B435CCBC2A640AEFB6A /* crypto_scrypt-nosse.c in Sources */ = {isa = PBXBuildFile; fileRef = EAE1EFE3A9918D00FE81E40AA32AE67B /* crypto_scrypt-nosse.c */; };
+		E56AED1946A50513C65012332925662F /* crypto-mcf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FCAEEDA72DB8122B4E592F742280933 /* crypto-mcf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8559622805F3EF6EC410BF58F9E0B764 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFB3EF85480945A91943F978757F4098;
-			remoteInfo = libscrypt;
-		};
-		A4A8344AEF637F8CDAE78F89DE75386C /* PBXContainerItemProxy */ = {
+		42AEB7FEB2B66DDF49AB8BF24F141F3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3FBF4DB0799EF29E9DC3FDF74DF180CC;
 			remoteInfo = "Pods-libscrypt_Example";
 		};
+		AB83EB3A2033A9CC68B740D14CB8D4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB3EF85480945A91943F978757F4098;
+			remoteInfo = libscrypt;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0789E81687C294DB951022E80FB62F9C /* Pods-libscrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libscrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0C19CE9D532EB6D3BEB8857CCC7ACECC /* Pods-libscrypt_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-libscrypt_Example"; path = Pods_libscrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C19CE9D532EB6D3BEB8857CCC7ACECC /* Pods_libscrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libscrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA5359A7E04047D54C42E2CA3DAE7E3 /* Pods-libscrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libscrypt_Example.modulemap"; sourceTree = "<group>"; };
+		18A21DA40CACEEA73CF1C12BE949A2F7 /* b64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = b64.c; path = libscrypt/b64.c; sourceTree = "<group>"; };
+		1DEC76D48812672BDA18CFAE7A147C43 /* libscrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libscrypt.modulemap; sourceTree = "<group>"; };
+		1FC5417876CD0D47FE5E0D28254B380A /* crypto_scrypt-hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-hash.c"; path = "libscrypt/crypto_scrypt-hash.c"; sourceTree = "<group>"; };
+		1FCAEEDA72DB8122B4E592F742280933 /* crypto-mcf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto-mcf.c"; path = "libscrypt/crypto-mcf.c"; sourceTree = "<group>"; };
 		2437AAEA91B86BBF290C8D6D85C07105 /* Pods-libscrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libscrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		27DD07A6C28E49648EA0004B4CAA801B /* libscrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libscrypt-Info.plist"; sourceTree = "<group>"; };
-		2D3996F37F8C34F1175B056F28769E45 /* libscrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libscrypt.debug.xcconfig; sourceTree = "<group>"; };
-		32A99876554258FBE91B9497A44B6F0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		246B6B9370B9CF76A60736D8022AEE1F /* sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha256.c; path = libscrypt/sha256.c; sourceTree = "<group>"; };
+		297EE429FAB16F3FD1CE4D98099C0A9A /* sysendian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sysendian.h; path = libscrypt/sysendian.h; sourceTree = "<group>"; };
+		2D64C1372F414A78C18EF84278239CC6 /* libscrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libscrypt-umbrella.h"; sourceTree = "<group>"; };
+		31253D9F73F92A0141D89622A42D2C18 /* crypto_scrypt-check.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-check.c"; path = "libscrypt/crypto_scrypt-check.c"; sourceTree = "<group>"; };
 		350F017EA35532530C56BD8E9E931722 /* libscrypt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libscrypt; path = libscrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D80CF61B1CD6FC405E6D081BDF261CD /* libscrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libscrypt-prefix.pch"; sourceTree = "<group>"; };
+		3E5915997777F54C1883170D4D5CE44C /* libscrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libscrypt.h; path = libscrypt/libscrypt.h; sourceTree = "<group>"; };
+		45BD85DF93E0493D97E77A528AE5B93A /* libscrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libscrypt.release.xcconfig; sourceTree = "<group>"; };
+		4B8C19918933F62B26B7467D38B8AB1A /* slowequals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = slowequals.h; path = libscrypt/slowequals.h; sourceTree = "<group>"; };
+		4D223AAE8A1E96199A2FB54277F4419F /* libscrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libscrypt.debug.xcconfig; sourceTree = "<group>"; };
+		4F52B216CC20613E14F048C104FBE2E0 /* libscrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libscrypt-Info.plist"; sourceTree = "<group>"; };
 		58A233FB37115607CCA1528F04210A54 /* Pods-libscrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libscrypt_Example-dummy.m"; sourceTree = "<group>"; };
 		5D8714DA44496339E9BB28CBEA5F43B0 /* Pods-libscrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libscrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77F891F125CA8E5BDD838455401892D9 /* libscrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libscrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7328B6B3C629B9674A6216D0FFFD4EA1 /* libscrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = libscrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		743041BF4EF4D4351439CF67B1E1050A /* crypto_scrypt-hexconvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "crypto_scrypt-hexconvert.h"; path = "libscrypt/crypto_scrypt-hexconvert.h"; sourceTree = "<group>"; };
 		8055515B5208E8659D5DBF6DD55FC5D1 /* Pods-libscrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libscrypt_Example-umbrella.h"; sourceTree = "<group>"; };
 		88BF29FCA0C76D70160A7403B63860BB /* Pods-libscrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libscrypt_Tests.modulemap"; sourceTree = "<group>"; };
-		9D53C66DEEF7D581CF29C83DCEC9EE3A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = libscrypt/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A259D73FAF23EACE0DC13409F621F33 /* libscrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libscrypt-dummy.m"; sourceTree = "<group>"; };
+		8E82E41DEDA8FE9DA9962EFE4845906E /* crypto_scrypt-hexconvert.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-hexconvert.c"; path = "libscrypt/crypto_scrypt-hexconvert.c"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A16789958DF9838B9F53F7B55CD4578F /* Pods-libscrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libscrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A735D0A5372ADF52AAC608A728DE7A92 /* Pods-libscrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libscrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A807F769D75F7ECF20B83389B4422ACE /* Pods-libscrypt_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-libscrypt_Tests"; path = Pods_libscrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A807F769D75F7ECF20B83389B4422ACE /* Pods_libscrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libscrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC21995F141BEE7554EE8D4883893A75 /* Pods-libscrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libscrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF9B8F7872B07CDCF79183A13905BE8A /* b64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = b64.h; path = libscrypt/b64.h; sourceTree = "<group>"; };
 		B0D6C2BE005B671EA43A3EEDB9936CFB /* Pods-libscrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libscrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B5E1191AFA25B298A41218A18212CB78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C2E49AB6D5973B47243CACD39C318F8A /* libscrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libscrypt-umbrella.h"; sourceTree = "<group>"; };
-		CCB22D3C74643B3B92F69414322BF344 /* libscrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libscrypt.release.xcconfig; sourceTree = "<group>"; };
+		BE810CEF065856C4FE17090004CEB7EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF43A02E093125EEDCDCE5BF73C010D9 /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = main.c; path = libscrypt/main.c; sourceTree = "<group>"; };
+		C58D40F49CF616EABCE010BAE9CCCD49 /* crypto-scrypt-saltgen.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto-scrypt-saltgen.c"; path = "libscrypt/crypto-scrypt-saltgen.c"; sourceTree = "<group>"; };
 		CD8F75A138E000CF2486E1E0F92DBE70 /* Pods-libscrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libscrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D475886D3025229540F93D1852421D03 /* libscrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libscrypt-dummy.m"; sourceTree = "<group>"; };
 		D715AC064235ADE21D4198B8951CFE1B /* Pods-libscrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libscrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E19718B0AD4F8ECCEA3EB53CBBEFD1D6 /* libscrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libscrypt.modulemap; sourceTree = "<group>"; };
+		DC2C42F4A61FAAE6474076E63A8E26FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E0EA85FC136A837F31792585274095F0 /* sha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha256.h; path = libscrypt/sha256.h; sourceTree = "<group>"; };
+		E3E0C78701058EEFA4707240CB5C37DD /* slowequals.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = slowequals.c; path = libscrypt/slowequals.c; sourceTree = "<group>"; };
+		E5D575D6CDA0B7131917F94A31F5033B /* libscrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libscrypt-prefix.pch"; sourceTree = "<group>"; };
 		E862C52EF245454F2125DE194C4E7917 /* Pods-libscrypt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libscrypt_Tests-Info.plist"; sourceTree = "<group>"; };
+		EAE1EFE3A9918D00FE81E40AA32AE67B /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-nosse.c"; path = "libscrypt/crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
 		F0169231F6CCB3A3D765B0F47A68FB3B /* Pods-libscrypt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libscrypt_Example-Info.plist"; sourceTree = "<group>"; };
 		F85A1451BE69042609604FC09422EF2B /* Pods-libscrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libscrypt_Tests-dummy.m"; sourceTree = "<group>"; };
 		FB49F573C3830B659153AD32A66FFD39 /* Pods-libscrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libscrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -81,6 +111,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		531292347F4D8E584A8416834763288C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3930D3CB4191B7CB56811D69AC0E4EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		573082091E4D608F2626093A87DC80EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,34 +127,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		689D2FDBECA1F4BFBC44BC3561BBC917 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B111AC698E4B4C208B177EBA2FDD3C20 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		297E41D561C3E4FA9BF8F73139FBB166 /* Development Pods */ = {
+		2CE94A4E2015C6991BC9297F9FD3E14E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C956CA9B99FBA6E8E8D8534D9F890C4 /* libscrypt */,
+				1DEC76D48812672BDA18CFAE7A147C43 /* libscrypt.modulemap */,
+				8A259D73FAF23EACE0DC13409F621F33 /* libscrypt-dummy.m */,
+				4F52B216CC20613E14F048C104FBE2E0 /* libscrypt-Info.plist */,
+				E5D575D6CDA0B7131917F94A31F5033B /* libscrypt-prefix.pch */,
+				2D64C1372F414A78C18EF84278239CC6 /* libscrypt-umbrella.h */,
+				4D223AAE8A1E96199A2FB54277F4419F /* libscrypt.debug.xcconfig */,
+				45BD85DF93E0493D97E77A528AE5B93A /* libscrypt.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2C956CA9B99FBA6E8E8D8534D9F890C4 /* libscrypt */ = {
-			isa = PBXGroup;
-			children = (
-				9D53C66DEEF7D581CF29C83DCEC9EE3A /* ReplaceMe.swift */,
-				785D534611360B4D990D6F7362E686B1 /* Pod */,
-				F199CBAF3263730D112BC847F96674F2 /* Support Files */,
-			);
-			name = libscrypt;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libscrypt";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -131,18 +157,52 @@
 			isa = PBXGroup;
 			children = (
 				350F017EA35532530C56BD8E9E931722 /* libscrypt */,
-				0C19CE9D532EB6D3BEB8857CCC7ACECC /* Pods-libscrypt_Example */,
-				A807F769D75F7ECF20B83389B4422ACE /* Pods-libscrypt_Tests */,
+				0C19CE9D532EB6D3BEB8857CCC7ACECC /* Pods_libscrypt_Example.framework */,
+				A807F769D75F7ECF20B83389B4422ACE /* Pods_libscrypt_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		785D534611360B4D990D6F7362E686B1 /* Pod */ = {
+		7BE011A8CD679652F193D27284DE6CCC /* libscrypt */ = {
 			isa = PBXGroup;
 			children = (
-				77F891F125CA8E5BDD838455401892D9 /* libscrypt.podspec */,
-				B5E1191AFA25B298A41218A18212CB78 /* LICENSE */,
-				32A99876554258FBE91B9497A44B6F0C /* README.md */,
+				18A21DA40CACEEA73CF1C12BE949A2F7 /* b64.c */,
+				AF9B8F7872B07CDCF79183A13905BE8A /* b64.h */,
+				1FCAEEDA72DB8122B4E592F742280933 /* crypto-mcf.c */,
+				C58D40F49CF616EABCE010BAE9CCCD49 /* crypto-scrypt-saltgen.c */,
+				31253D9F73F92A0141D89622A42D2C18 /* crypto_scrypt-check.c */,
+				1FC5417876CD0D47FE5E0D28254B380A /* crypto_scrypt-hash.c */,
+				8E82E41DEDA8FE9DA9962EFE4845906E /* crypto_scrypt-hexconvert.c */,
+				743041BF4EF4D4351439CF67B1E1050A /* crypto_scrypt-hexconvert.h */,
+				EAE1EFE3A9918D00FE81E40AA32AE67B /* crypto_scrypt-nosse.c */,
+				3E5915997777F54C1883170D4D5CE44C /* libscrypt.h */,
+				BF43A02E093125EEDCDCE5BF73C010D9 /* main.c */,
+				246B6B9370B9CF76A60736D8022AEE1F /* sha256.c */,
+				E0EA85FC136A837F31792585274095F0 /* sha256.h */,
+				E3E0C78701058EEFA4707240CB5C37DD /* slowequals.c */,
+				4B8C19918933F62B26B7467D38B8AB1A /* slowequals.h */,
+				297EE429FAB16F3FD1CE4D98099C0A9A /* sysendian.h */,
+				C17757208EF52DC6B62150E61FC79F5F /* Pod */,
+				2CE94A4E2015C6991BC9297F9FD3E14E /* Support Files */,
+			);
+			name = libscrypt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		998048AC81C095539611B82CA4F16D56 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BE011A8CD679652F193D27284DE6CCC /* libscrypt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C17757208EF52DC6B62150E61FC79F5F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7328B6B3C629B9674A6216D0FFFD4EA1 /* libscrypt.podspec */,
+				DC2C42F4A61FAAE6474076E63A8E26FD /* LICENSE */,
+				BE810CEF065856C4FE17090004CEB7EE /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -168,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				297E41D561C3E4FA9BF8F73139FBB166 /* Development Pods */,
+				998048AC81C095539611B82CA4F16D56 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				71318539AF988AB498AC13601ABA3D99 /* Products */,
 				EF3B9ED3100D1D589E0C54F96E991319 /* Targets Support Files */,
@@ -192,21 +252,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F199CBAF3263730D112BC847F96674F2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E19718B0AD4F8ECCEA3EB53CBBEFD1D6 /* libscrypt.modulemap */,
-				D475886D3025229540F93D1852421D03 /* libscrypt-dummy.m */,
-				27DD07A6C28E49648EA0004B4CAA801B /* libscrypt-Info.plist */,
-				4D80CF61B1CD6FC405E6D081BDF261CD /* libscrypt-prefix.pch */,
-				C2E49AB6D5973B47243CACD39C318F8A /* libscrypt-umbrella.h */,
-				2D3996F37F8C34F1175B056F28769E45 /* libscrypt.debug.xcconfig */,
-				CCB22D3C74643B3B92F69414322BF344 /* libscrypt.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libscrypt";
-			sourceTree = "<group>";
-		};
 		FE3286012ED47954D24125EB586BDB36 /* Pods-libscrypt_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,19 +271,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6E7BAE363BA64F17E6F9361D26AFB470 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				304115F856236463CAF1335AC88CE30B /* libscrypt-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		812022324BAC20F31802A9C0C6D009DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F4B60D774B68FA3B4682FE0FA917DB6 /* Pods-libscrypt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A140BE7A12D550E29688B17616E8601D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEDA447EE30A3096A1C6137E510E129 /* b64.h in Headers */,
+				028F6E567623232683ED47AC589BD5A2 /* crypto_scrypt-hexconvert.h in Headers */,
+				D02D52C1B18CDDBBA5ED658694A88C18 /* libscrypt.h in Headers */,
+				8D49CAD78CAA771BDD350736AD8352AD /* libscrypt-umbrella.h in Headers */,
+				CE437AD43B17CAD8772F3935AA1AA5A4 /* sha256.h in Headers */,
+				7C7BDC535025ABB315428994132AF0C2 /* slowequals.h in Headers */,
+				210F08E581018BF1172C68E5E7767C6D /* sysendian.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,11 +316,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				8ADEEF0FD6FEA60E7F218176C19A074F /* PBXTargetDependency */,
+				4972C27CB4A2782CC84B899DF3D376A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-libscrypt_Example";
 			productName = Pods_libscrypt_Example;
-			productReference = 0C19CE9D532EB6D3BEB8857CCC7ACECC /* Pods-libscrypt_Example */;
+			productReference = 0C19CE9D532EB6D3BEB8857CCC7ACECC /* Pods_libscrypt_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4BC6E11FF204C3480798DEE6747E8FEC /* Pods-libscrypt_Tests */ = {
@@ -284,21 +335,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				D0CCE7B96D2DF91502A21CC9C70192C8 /* PBXTargetDependency */,
+				1E2EF26533B884B8E8A0AC4C4836EFAF /* PBXTargetDependency */,
 			);
 			name = "Pods-libscrypt_Tests";
 			productName = Pods_libscrypt_Tests;
-			productReference = A807F769D75F7ECF20B83389B4422ACE /* Pods-libscrypt_Tests */;
+			productReference = A807F769D75F7ECF20B83389B4422ACE /* Pods_libscrypt_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DFB3EF85480945A91943F978757F4098 /* libscrypt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A50CDD56CE86BA27FAD573CB012676C /* Build configuration list for PBXNativeTarget "libscrypt" */;
+			buildConfigurationList = 12ED3C70FB72496CA999FCB6C78F4D98 /* Build configuration list for PBXNativeTarget "libscrypt" */;
 			buildPhases = (
-				6E7BAE363BA64F17E6F9361D26AFB470 /* Headers */,
-				5C6BEE4F8B0A47103844CC04AD7B088C /* Sources */,
-				689D2FDBECA1F4BFBC44BC3561BBC917 /* Frameworks */,
-				BD705297E78C20FCDC747095874581C9 /* Resources */,
+				A140BE7A12D550E29688B17616E8601D /* Headers */,
+				16ED3F39D7411F799DEF79D632368D6D /* Sources */,
+				531292347F4D8E584A8416834763288C /* Frameworks */,
+				CC8975454FC8BA0E7890E3C692F8E941 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -316,7 +367,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -346,7 +397,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD705297E78C20FCDC747095874581C9 /* Resources */ = {
+		CC8975454FC8BA0E7890E3C692F8E941 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +422,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		16ED3F39D7411F799DEF79D632368D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C0EE58E9E3B3031565794723E2466F /* b64.c in Sources */,
+				E56AED1946A50513C65012332925662F /* crypto-mcf.c in Sources */,
+				82628AEA6EBE1E58167AC565AD40D061 /* crypto-scrypt-saltgen.c in Sources */,
+				2FD251540829A5A71E4C739E9DB5FE6F /* crypto_scrypt-check.c in Sources */,
+				BEBBB036CF296F5F3FACAA0FF2E7BA1E /* crypto_scrypt-hash.c in Sources */,
+				80143B18ED8DEEF8C5DCA01DD22C3AB2 /* crypto_scrypt-hexconvert.c in Sources */,
+				DDAEFF5C70EF7B435CCBC2A640AEFB6A /* crypto_scrypt-nosse.c in Sources */,
+				919AF42C5B992723E108C32300EE5FE1 /* libscrypt-dummy.m in Sources */,
+				DA3C5302E48E80891AB13F6E24E583E4 /* main.c in Sources */,
+				AFE8930F49C972AEC175A0C28E5C4C47 /* sha256.c in Sources */,
+				7D1B69CC8678BDFEFE608632EEE7DF87 /* slowequals.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		223CE9D46B6607AF14818B466C9FB69E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,29 +448,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C6BEE4F8B0A47103844CC04AD7B088C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7039D9D949A430822359FDA07FB0FC86 /* libscrypt-dummy.m in Sources */,
-				F4887C399CD3F17EAC1C09873CB15B06 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8ADEEF0FD6FEA60E7F218176C19A074F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libscrypt;
-			target = DFB3EF85480945A91943F978757F4098 /* libscrypt */;
-			targetProxy = 8559622805F3EF6EC410BF58F9E0B764 /* PBXContainerItemProxy */;
-		};
-		D0CCE7B96D2DF91502A21CC9C70192C8 /* PBXTargetDependency */ = {
+		1E2EF26533B884B8E8A0AC4C4836EFAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-libscrypt_Example";
 			target = 3FBF4DB0799EF29E9DC3FDF74DF180CC /* Pods-libscrypt_Example */;
-			targetProxy = A4A8344AEF637F8CDAE78F89DE75386C /* PBXContainerItemProxy */;
+			targetProxy = 42AEB7FEB2B66DDF49AB8BF24F141F3E /* PBXContainerItemProxy */;
+		};
+		4972C27CB4A2782CC84B899DF3D376A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libscrypt;
+			target = DFB3EF85480945A91943F978757F4098 /* libscrypt */;
+			targetProxy = AB83EB3A2033A9CC68B740D14CB8D4FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,7 +481,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-libscrypt_Example/Pods-libscrypt_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-libscrypt_Example/Pods-libscrypt_Example.modulemap";
@@ -491,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -501,36 +561,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		39AF9857B97D62DE53BB065F131714EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D3996F37F8C34F1175B056F28769E45 /* libscrypt.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libscrypt/libscrypt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libscrypt/libscrypt-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libscrypt/libscrypt.modulemap";
-				PRODUCT_MODULE_NAME = libscrypt;
-				PRODUCT_NAME = libscrypt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -549,7 +579,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-libscrypt_Example/Pods-libscrypt_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-libscrypt_Example/Pods-libscrypt_Example.modulemap";
@@ -582,7 +612,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-libscrypt_Tests/Pods-libscrypt_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-libscrypt_Tests/Pods-libscrypt_Tests.modulemap";
@@ -599,10 +629,11 @@
 			};
 			name = Debug;
 		};
-		75500446FD6A630E7142630818351007 /* Release */ = {
+		5D67D3A27096F87092EC1A1ABF505D2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCB22D3C74643B3B92F69414322BF344 /* libscrypt.release.xcconfig */;
+			baseConfigurationReference = 45BD85DF93E0493D97E77A528AE5B93A /* libscrypt.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -614,7 +645,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/libscrypt/libscrypt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/libscrypt/libscrypt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/libscrypt/libscrypt.modulemap";
 				PRODUCT_MODULE_NAME = libscrypt;
@@ -629,6 +660,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A131639E8A1ED73C952010D2B2F2B60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D223AAE8A1E96199A2FB54277F4419F /* libscrypt.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libscrypt/libscrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libscrypt/libscrypt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libscrypt/libscrypt.modulemap";
+				PRODUCT_MODULE_NAME = libscrypt;
+				PRODUCT_NAME = libscrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -680,13 +742,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -707,7 +768,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-libscrypt_Tests/Pods-libscrypt_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-libscrypt_Tests/Pods-libscrypt_Tests.modulemap";
@@ -728,6 +789,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12ED3C70FB72496CA999FCB6C78F4D98 /* Build configuration list for PBXNativeTarget "libscrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A131639E8A1ED73C952010D2B2F2B60D /* Debug */,
+				5D67D3A27096F87092EC1A1ABF505D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,15 +812,6 @@
 			buildConfigurations = (
 				23AA4BC7743CBB3F77081B8352C108E5 /* Debug */,
 				3E6CF777CBEF2E3F5A0DBBFE5C07CC14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A50CDD56CE86BA27FAD573CB012676C /* Build configuration list for PBXNativeTarget "libscrypt" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39AF9857B97D62DE53BB065F131714EA /* Debug */,
-				75500446FD6A630E7142630818351007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import libscrypt
 
 class ViewController: UIViewController {
 

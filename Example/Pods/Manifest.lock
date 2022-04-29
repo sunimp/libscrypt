@@ -1,5 +1,5 @@
 PODS:
-  - libscrypt (0.1.0)
+  - libscrypt (1.22.1)
 
 DEPENDENCIES:
   - libscrypt (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libscrypt: 5c16a95d9ceaec8021108d47633af2052d490aa9
+  libscrypt: 65e9fe7cbdf490cbece6c06136a057ab74f74b4d
 
 PODFILE CHECKSUM: d2fd472b674ba4b6872650fb32482078484b6139
 
