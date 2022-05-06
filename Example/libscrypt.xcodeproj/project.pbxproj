@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* libscrypt_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libscrypt_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		709AA56EB200534A2D35F70B /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libscrypt.podspec; path = ../libscrypt.podspec; sourceTree = "<group>"; };
+		709AA56EB200534A2D35F70B /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libscrypt.podspec; path = ../libscrypt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		808863076F3C36B71BB9080C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		851BDD4F83B90C87605E7750 /* Pods-libscrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libscrypt_Tests.release.xcconfig"; path = "Target Support Files/Pods-libscrypt_Tests/Pods-libscrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9637D2C9DBB538FB5EA94668 /* Pods_libscrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libscrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
